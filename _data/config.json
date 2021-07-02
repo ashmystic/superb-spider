@@ -9,7 +9,7 @@
                 "type": "action",
                 "label": "Features",
                 "url": "/features",
-                "style": "primary"
+                "style": "link"
             },
             {
                 "type": "action",
