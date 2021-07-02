@@ -84,7 +84,7 @@
                 "type": "action",
                 "label": "LinkedIn",
                 "url": "https://www.linkedin.com/",
-                "style": "secondary",
+                "style": "link",
                 "new_window": true
             },
             {
