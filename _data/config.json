@@ -44,7 +44,8 @@
                 "style": "primary"
             }
         ],
-        "logo_alt": "Superb Spider"
+        "logo_alt": "Superb Spider",
+        "logo": "/images/1.png"
     },
     "footer": {
         "type": "footer",
