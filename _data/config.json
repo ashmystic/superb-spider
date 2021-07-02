@@ -3,7 +3,7 @@
     "header": {
         "type": "header",
         "title": "Superb Spider",
-        "has_nav": true,
+        "has_nav": false,
         "nav_links": [
             {
                 "type": "action",
