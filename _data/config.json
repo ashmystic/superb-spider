@@ -41,7 +41,8 @@
                 "type": "action",
                 "label": "Contact Us",
                 "url": "/contact",
-                "style": "primary"
+                "style": "primary",
+                "new_window": true
             }
         ],
         "logo_alt": "Superb Spider"
