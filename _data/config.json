@@ -43,7 +43,8 @@
                 "url": "/contact",
                 "style": "primary"
             }
-        ]
+        ],
+        "logo_alt": "Su"
     },
     "footer": {
         "type": "footer",
