@@ -9,6 +9,7 @@
       <a class="navbar__logo" href="{{ '/' | relative_url }}"><img src="{{ site.data.config.header.logo | relative_url }}" alt="{{ site.data.config.header.logo_alt }}" /></a>
       {% else %}
       {% endif %}
+      <a class="h6 navbar__title" href='{{ '/' | relative_url }}'>{{ site.data.config.header.title }}</a>
 
       {% assign has_nav_is_not_empty = site.data.config.header.has_nav | is_not_empty %}
       {% if has_nav_is_not_empty %}
