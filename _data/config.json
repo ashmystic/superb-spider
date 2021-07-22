@@ -3,7 +3,7 @@
     "header": {
         "type": "header",
         "title": "Order of the Twelve Mushrooms",
-        "has_nav": false,
+        "has_nav": true,
         "nav_links": [
             {
                 "type": "action",
