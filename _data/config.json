@@ -33,7 +33,7 @@
                 "new_window": true
             },
             {
-                "label": "Online Deck",
+                "label": "Online Oracle",
                 "url": "#",
                 "style": "secondary",
                 "new_window": false,
