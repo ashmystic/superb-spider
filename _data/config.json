@@ -6,12 +6,6 @@
         "has_nav": true,
         "nav_links": [
             {
-                "type": "action",
-                "label": "Features",
-                "url": "/features",
-                "style": "link"
-            },
-            {
                 "label": "lorem-ipsum",
                 "url": "#",
                 "style": "link",
