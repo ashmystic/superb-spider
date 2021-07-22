@@ -6,7 +6,7 @@ sections:
     subtitle: Purchase the deck based on the Memphis Mushroom Synchronicity.
     actions:
       - type: action
-        label: Learn More
+        label: Purchase Deck
         url: /features
         style: primary
       - type: action
