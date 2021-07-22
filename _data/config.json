@@ -7,6 +7,13 @@
         "nav_links": [
             {
                 "type": "action",
+                "label": "Buy Oracle Deck",
+                "url": "/contact",
+                "style": "primary",
+                "new_window": true
+            },
+            {
+                "type": "action",
                 "label": "About",
                 "url": "/about",
                 "style": "link"
@@ -24,13 +31,6 @@
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
-            },
-            {
-                "type": "action",
-                "label": "Buy Oracle Deck",
-                "url": "/contact",
-                "style": "primary",
-                "new_window": true
             },
             {
                 "label": "Online Oracle",
