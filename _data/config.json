@@ -7,14 +7,14 @@
         "nav_links": [
             {
                 "type": "action",
-                "label": "Blog",
-                "url": "/blog",
+                "label": "About",
+                "url": "/about",
                 "style": "link"
             },
             {
                 "type": "action",
-                "label": "About",
-                "url": "/about",
+                "label": "Blog",
+                "url": "/blog",
                 "style": "link"
             },
             {
