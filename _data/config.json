@@ -53,7 +53,7 @@
                 "type": "action"
             }
         ],
-        "logo_alt": "Superb Spider",
+        "logo_alt": "navbar__title",
         "logo": "/images/7_trees_circle.png"
     },
     "footer": {
