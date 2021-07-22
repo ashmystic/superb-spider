@@ -11,7 +11,7 @@ sections:
         style: primary
       - type: action
         label: Learn More
-        url: /contact
+        url: /about
         style: secondary
     align: left
     image: images/hero.svg
