@@ -21,7 +21,7 @@
                 "type": "action",
                 "label": "Buy Deck",
                 "url": "/contact",
-                "style": "secondary",
+                "style": "primary",
                 "new_window": true
             }
         ],
