@@ -18,19 +18,19 @@
                 "style": "link"
             },
             {
-                "type": "action",
-                "label": "Buy Oracle Deck",
-                "url": "/contact",
-                "style": "primary",
-                "new_window": true
-            },
-            {
                 "label": "Deck Guidebook",
                 "url": "#",
                 "style": "link",
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
+            },
+            {
+                "type": "action",
+                "label": "Buy Oracle Deck",
+                "url": "/contact",
+                "style": "primary",
+                "new_window": true
             }
         ],
         "logo_alt": "Order of the Twelve Mushrooms",
