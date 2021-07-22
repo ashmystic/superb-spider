@@ -23,6 +23,6 @@ window.removeMainNavigationHandlers = function() {
 	}
 };
 
-window.add = function() {
+window.addInteractive = function() {
 	
 };
