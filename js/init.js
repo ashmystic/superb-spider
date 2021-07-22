@@ -23,7 +23,7 @@ window.removeMainNavigationHandlers = function() {
 	}
 };
 
-window.addMainNavigationHandlers = function() {
+window.add = function() {
 	const navToggle = document.querySelectorAll('.js-nav-toggle');
 	if (navToggle) {
 		for (let i = 0; i < navToggle.length; i++) {
