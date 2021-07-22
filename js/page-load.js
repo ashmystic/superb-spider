@@ -1,2 +1,2 @@
-window.addMainNavigationHandlers();
+//window.addMainNavigationHandlers();
 window.addInteractiveDeckHandlers();
