@@ -7,7 +7,7 @@ sections:
     actions:
       - type: action
         label: Purchase Deck
-        url: /features
+        url: '#'
         style: primary
       - type: action
         label: Learn More
