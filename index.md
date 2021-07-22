@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: The Superbest Spider
+    title: The Superbest of Spiders
     subtitle: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
       quis lorem malesuada luctus.
@@ -22,7 +22,7 @@ sections:
     has_background: true
     background:
       background_color: blue
-      background_image: images/diagonal-lines.svg
+      background_image: /images/diagonal-lines.svg
       background_image_opacity: 20
       background_image_size: auto
       background_image_repeat: repeat
@@ -90,6 +90,7 @@ sections:
         style: primary
     has_background: true
     background_color: gray
+  - type: contact_section
 seo:
   type: stackbit_page_meta
   title: Stackbit Starter Theme

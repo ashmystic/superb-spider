@@ -22,3 +22,8 @@ window.removeMainNavigationHandlers = function() {
 		}
 	}
 };
+
+window.addInteractiveDeckHandlers = function() {
+	alert("Interactive deck");
+    console.log("Interactive deck");
+};
