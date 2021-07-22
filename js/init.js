@@ -23,6 +23,6 @@ window.removeMainNavigationHandlers = function() {
 	}
 };
 
-window.addInteractiveDeck = function() {
-	
+window.addInteractiveDeckHandlers = function() {
+	alert("Interactive deck");
 };
