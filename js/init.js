@@ -22,3 +22,12 @@ window.removeMainNavigationHandlers = function() {
 		}
 	}
 };
+
+window.addMainNavigationHandlers = function() {
+	const navToggle = document.querySelectorAll('.js-nav-toggle');
+	if (navToggle) {
+		for (let i = 0; i < navToggle.length; i++) {
+			navToggle[i].addEventListener('click', navToggleHandler, false);
+		}
+	}
+};
