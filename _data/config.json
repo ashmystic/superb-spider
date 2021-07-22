@@ -19,7 +19,7 @@
             },
             {
                 "type": "action",
-                "label": "Contact Us",
+                "label": "Buy Deck",
                 "url": "/contact",
                 "style": "primary",
                 "new_window": true
