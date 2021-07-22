@@ -21,6 +21,14 @@
                 "type": "action"
             },
             {
+                "label": "Deck Guidebook",
+                "url": "#",
+                "style": "link",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
                 "type": "action",
                 "label": "About",
                 "url": "/about",
@@ -31,14 +39,6 @@
                 "label": "Blog",
                 "url": "/blog",
                 "style": "link"
-            },
-            {
-                "label": "Deck Guidebook",
-                "url": "#",
-                "style": "link",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
             }
         ],
         "logo_alt": "Order of the Twelve Mushrooms",
