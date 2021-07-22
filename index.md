@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: hero_section
     title: The Order of the Twelve Mushrooms Oracle Deck
-    subtitle: Purchase the deck based on the Memphis Mushroom Synchronicity.
+    subtitle: Purchase the deck based on the Memphis Mushroom Synchronicity!
     actions:
       - type: action
         label: Purchase Deck
