@@ -19,7 +19,7 @@
             },
             {
                 "type": "action",
-                "label": "Buy Deck",
+                "label": "Buy Oracle Deck",
                 "url": "/contact",
                 "style": "primary",
                 "new_window": true
