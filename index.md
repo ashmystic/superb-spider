@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: The Ora
+    title: The Order of the Twelve Mushrooms Oracle Deck
     subtitle: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
       quis lorem malesuada luctus.
