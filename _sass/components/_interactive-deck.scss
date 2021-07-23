@@ -1,0 +1,318 @@
+* { box-sizing: border-box; }
+
+
+/*body {
+  font-family: sans-serif;
+  background: #1E1E1E;
+}
+
+h1 {
+  color:white;
+  font-family: 'Inknut Antiqua', serif;
+}
+h2,h3,.footer {
+  color:white;
+  font-family: 'Antiqua', serif;
+}
+h1,h2 {
+    text-align: center;
+}
+.footer {
+  text-align: center;
+  margin: 20px;
+}
+.center-text {
+  text-align: center;
+}
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.quote {
+  font-style: italic;
+}*/
+
+.scene {
+  /*border: 1px solid #CCC;*/
+  margin: 40px 0;
+  position: relative;
+  width: 210px;
+  height: 140px;
+  margin: 80px auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /*transform: translateZ(-288px);*/
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-transform: translateZ(0);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  -o-transition: -o-transform 1s;
+  -ms-transition: -ms-transform 1s;
+  transition: transform 1s;
+}
+
+.carousel__cell {
+  position: absolute;
+  /*width: 190px;*/
+  height: 350px;
+  left: 10px;
+  top: 10px;
+  /*border: 1px solid black;*/
+  line-height: 116px;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+  -webkit-transition: -webkit-transform 1s, opacity 1s;
+  -moz-transition: -moz-transform 1s, opacity 1s;
+  -o-transition: -o-transform 1s, opacity 1s;
+  -ms-transition: -ms-transform 1s, opacity 1s;
+  transition: transform 1s, opacity 1s;
+
+
+  perspective: 600px;
+}
+.scope-text {
+  /*text-align: center;*/
+  position: relative;
+  margin-top: 80px !important;
+  margin-bottom: -80px;
+
+  /*font-family: 'Inknut Antiqua', serif;*/
+
+  -webkit-z-index: 2;
+  -moz-z-index: 2;
+  -o-z-index: 2;
+  -ms-z-index: 2;
+  z-index: 2;
+}
+.carousel-options {
+  text-align: center;
+  position: relative;
+  margin-top: 210px;
+
+  -webkit-z-index: 2;
+  -moz-z-index: 2;
+  -o-z-index: 2;
+  -ms-z-index: 2;
+  z-index: 2;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .scene {
+    margin: 40px 0;
+    position: relative;
+    width: 150px;
+    height: 140px;
+    margin: 80px auto;
+    perspective: 1000px;
+  }
+
+  .carousel__cell {
+    position: absolute;
+    height: 250px;
+    left: 10px;
+    top: 10px;
+    line-height: 116px;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+    -webkit-transition: transform 1s, opacity 1s;
+    -moz-transition: transform 1s, opacity 1s;
+    -o-transition: transform 1s, opacity 1s;
+    -ms-transition: transform 1s, opacity 1s;
+    transition: transform 1s, opacity 1s;
+
+    perspective: 600px;
+  }
+  .carousel-options {
+  text-align: center;
+  position: relative;
+  margin-top: 110px;
+
+  -webkit-z-index: 2;
+  -moz-z-index: 2;
+  -o-z-index: 2;
+  -ms-z-index: 2;
+  z-index: 2;
+}
+
+}
+
+/*.carousel__cell:nth-child(9n+1) { background: hsla(  0, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+2) { background: hsla( 40, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+3) { background: hsla( 80, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+4) { background: hsla(120, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+5) { background: hsla(160, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+6) { background: hsla(200, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+7) { background: hsla(240, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+8) { background: hsla(280, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+0) { background: hsla(320, 100%, 50%, 0.8); }*/
+
+.carousel__cell:nth-child(1) {
+  -webkit-transform: rotateY(  0deg) translateZ(219px); 
+  -moz-transform: rotateY(  0deg) translateZ(219px); 
+  -o-transform: rotateY(  0deg) translateZ(219px); 
+  -ms-transform: rotateY(  0deg) translateZ(219px); 
+  transform: rotateY(  0deg) translateZ(219px); 
+}
+.carousel__cell:nth-child(2) {
+  -webkit-transform: rotateY(  51.4deg) translateZ(219px); 
+  -moz-transform: rotateY(  51.4deg) translateZ(219px); 
+  -o-transform: rotateY(  51.4deg) translateZ(219px); 
+  -ms-transform: rotateY(  51.4deg) translateZ(219px); 
+  transform: rotateY(  51.4deg) translateZ(219px); 
+}
+.carousel__cell:nth-child(3) {
+  -webkit-transform: rotateY(  102.8deg) translateZ(219px); 
+  -moz-transform: rotateY(  102.8deg) translateZ(219px); 
+  -o-transform: rotateY(  102.8deg) translateZ(219px); 
+  -ms-transform: rotateY(  102.8deg) translateZ(219px); 
+  transform: rotateY(  102.8deg) translateZ(219px); 
+}
+.carousel__cell:nth-child(4) {
+  -webkit-transform: rotateY(  154.2deg) translateZ(219px); 
+  -moz-transform: rotateY(  154.2deg) translateZ(219px); 
+  -o-transform: rotateY(  154.2deg) translateZ(219px); 
+  -ms-transform: rotateY(  154.2deg) translateZ(219px); 
+  transform: rotateY(  154.2deg) translateZ(219px); 
+}
+.carousel__cell:nth-child(5) {
+  -webkit-transform: rotateY(  205.6deg) translateZ(219px); 
+  -moz-transform: rotateY(  205.6deg) translateZ(219px); 
+  -o-transform: rotateY(  205.6deg) translateZ(219px); 
+  -ms-transform: rotateY(  205.6deg) translateZ(219px); 
+  transform: rotateY(  205.6deg) translateZ(219px); 
+}
+.carousel__cell:nth-child(6) {
+  -webkit-transform: rotateY(  257deg) translateZ(219px); 
+  -moz-transform: rotateY(  257deg) translateZ(219px); 
+  -o-transform: rotateY(  257deg) translateZ(219px); 
+  -ms-transform: rotateY(  257deg) translateZ(219px); 
+  transform: rotateY(  257deg) translateZ(219px); 
+}
+.carousel__cell:nth-child(7) {
+  -webkit-transform: rotateY(  308.4deg) translateZ(219px); 
+  -moz-transform: rotateY(  308.4deg) translateZ(219px); 
+  -o-transform: rotateY(  308.4deg) translateZ(219px); 
+  -ms-transform: rotateY(  308.4deg) translateZ(219px); 
+  transform: rotateY(  308.4deg) translateZ(219px); 
+}
+
+.oracle__card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  -webkit-transform: translateZ(0);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  -o-transition: -o-transform 1s;
+  -ms-transition: -ms-transform 1s;
+  transition: transform 1s;
+
+  -webkit-transform-style: -webkit-preserve-3d;
+  -moz-transform-style: -moz-preserve-3d;
+  -o-transform-style: -o-preserve-3d;
+  -ms-transform-style: -ms-preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card__face {
+  left:0px;
+  top:0px;
+  height: 100%;
+  width: 100%;
+
+  display: inline-block;
+
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  display: inline-block;
+  /*background: red;*/
+  background-color: transparent;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card__face--back {
+  display: inline-block;
+  position: absolute;
+  /*background: blue;*/
+  -webkit-transform: translateZ(0);
+  -webkit-transform: rotateY( 180deg );
+  -moz-transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  -ms-transform: rotateY( 180deg );
+  transform: rotateY( 180deg );
+  /*display: none;*/
+
+}
+
+.oracle__card.is-flipped {
+  display: inline-block;
+
+  -webkit-transform: translateZ(0);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+
+}
+
+.carousel__cell img {
+  max-width: 100%;
+  /*margin-top: 20px;*/
+  /*margin-bottom: 10px;*/
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+.carousel__cell:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+
+  cursor:pointer;
+
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+

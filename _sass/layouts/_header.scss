@@ -5,6 +5,9 @@
   border-bottom: 1px solid $color-border;
   padding-bottom: 1.125rem;
   padding-top: 1.125rem;
+
+  // Ash added
+  background-color: $color-bg-alt;
 }
 
 .navbar {
@@ -18,6 +21,7 @@
   flex: 0 1 auto;
   margin: 0 1.25rem 0 0;
   text-decoration: none;
+  color: $color-nav-link;
 }
 
 .navbar__logo {
@@ -94,6 +98,9 @@
     height: 100%;
     overflow-y: auto;
     position: relative;
+
+    // Ash added
+    background-color: $color-bg-alt;
   }
 
   .navbar__inner {

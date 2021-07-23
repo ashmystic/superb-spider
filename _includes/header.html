@@ -27,6 +27,7 @@
                 {% assign pageUrl = page.url | trim: '/' %}
                 {% assign actionUrl = action.url | trim: '/' %}
                 <li class="navbar__item{% if action.style != 'link' %} navbar__item--btn{% endif %}{% if pageUrl == actionUrl %} is-active{% endif %}">
+                <!-- <li class="navbar__item{% if action.style != 'link' %} button {% endif %}{% if pageUrl == actionUrl %} is-active{% endif %}"> -->
                   
                   {% include action.html action=action %}
                 </li>

@@ -12,7 +12,9 @@
 
 // Components
 @import "components/forms";
+// @import "components/buttons-orig";
 @import "components/buttons";
+// @import "components/buttons-stylized";
 @import "components/icons";
 @import "components/tables";
 @import "components/menus";
@@ -20,6 +22,7 @@
 @import "components/cards";
 @import "components/inverse";
 @import "components/banner";
+@import "components/interactive-deck";
 
 // Layouts
 @import "layouts/site";
