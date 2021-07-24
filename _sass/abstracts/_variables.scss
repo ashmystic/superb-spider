@@ -24,18 +24,19 @@ $color-blockquote:             #282f36 !default;
 $color-blockquote-border:      #28aaff !default;
 
 // Buttons
-// primary
-$color-btn:                    #fff !default;
-// $color-btn-bg:                 #28aaff !default;
-// $color-btn-bg:                 DarkSlateGrey !default;
-$color-btn-bg:                 rgba(30,30,30,0.3) !default;
+// Primary
+// Alt 2 (buy button) -> primary
+// $color-btn-alt:               #28aaff !default;
+$color-btn:                #fff !default;
+// $color-btn-alt-bg:             transparent !default;
+// $color-btn-alt-bg:             #fff !default;
+$color-btn-border:         #fff !default;
+$color-btn-bg:             Purple !default;
 $color-btn-bg-hover:           DimGray !default;
-$color-btn-bg-active:           rgba(30,30,30,.1) !default;
-// $color-btn-border:             #28aaff !default;
-$color-btn-border:             #fff !default;
-$color-btn-shadow:             #333 !default;
+$color-btn-bg-active:          DarkSlateGrey !default;
 
-// Alt 1 (most buttons)
+// Secondary
+// Alt 1 (most buttons) -> secondary
 // $color-btn-alt:               #28aaff !default;
 $color-btn-alt:                DarkSlateGrey !default;
 // $color-btn-alt-bg:             transparent !default;
@@ -45,21 +46,32 @@ $color-btn-alt-bg:             #fff !default;
 $color-btn-alt-border:         #fff !default;
 $color-btn-alt-shadow:         DimGray !default;
 
-$color-btn-clear:              #282f36 !default;
+// $color-btn-clear:              #282f36 !default;
+$color-btn-clear:              #fff !default;
 
-// Alt 2 (buy button)
-// $color-btn-alt:               #28aaff !default;
-$color-btn-alt-2:                #fff !default;
-// $color-btn-alt-bg:             transparent !default;
-// $color-btn-alt-bg:             #fff !default;
-$color-btn-alt-2-border:         #fff !default;
-$color-btn-alt-2-bg:             Purple !default;
+// Glow
+// primary -> glow
+$color-btn-alt2:                    #fff !default;
+// $color-btn-bg:                 #28aaff !default;
+// $color-btn-bg:                 DarkSlateGrey !default;
+$color-btn-alt2-bg:                 rgba(30,30,30,0.3) !default;
+$color-btn-alt2-bg-hover:           DimGray !default;
+$color-btn-alt2-bg-active:           rgba(30,30,30,.1) !default;
+// $color-btn-border:             #28aaff !default;
+$color-btn-alt2-border:             #fff !default;
+$color-btn-alt2-shadow:             #333 !default;
+
+
+
+
 
 // Navigation
-$color-nav-link:               #536171 !default;
-// $color-nav-link:               #fff !default;
-$color-nav-link-hover:         #28aaff !default;
-$color-nav-link-active:        #28aaff !default;
+// $color-nav-link:               #536171 !default;
+$color-nav-link:               #fff !default;
+// $color-nav-link-hover:         #28aaff !default;
+$color-nav-link-hover:         #ff00c8 !default;
+// $color-nav-link-active:        #28aaff !default;
+$color-nav-link-active:        #ff00c8 !default;
 
 // Inverse (light text on dark background)
 $color-inverse-text:           #f5f6f7 !default;

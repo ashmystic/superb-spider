@@ -9,13 +9,13 @@
                 "type": "action",
                 "label": "Buy Oracle Deck",
                 "url": "#",
-                "style": "tertiary",
+                "style": "primary",
                 "new_window": true
             },
             {
                 "label": "Online Oracle",
-                "url": "#container-online-oracle",
-                "style": "primary",
+                "url": "#online-oracle",
+                "style": "glow",
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
@@ -42,7 +42,7 @@
             }
         ],
         "logo_alt": "Order of the Twelve Mushrooms",
-        "logo": "/images/4_gnosis_circle.png"
+        "logo": "/images/fruit_of_life_small.png"
     },
     "footer": {
         "type": "footer",
@@ -96,5 +96,5 @@
         "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=starter&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
     },
     "domain": "https://twelve-mushrooms.netlify.app",
-    "favicon": "/images/4_gnosis_circle.png"
+    "favicon": "/images/fruit_of_life_small.png"
 }

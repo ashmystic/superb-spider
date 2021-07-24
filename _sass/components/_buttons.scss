@@ -55,7 +55,7 @@ input[type="reset"],
   //
   &:hover {
     // background-color: $color-btn-bg-hover;
-    box-shadow: 0 0 8px 8px white inset;
+    box-shadow: 0 0 5px 1px white inset;
   }
   &:active,
   &.is-checked {
@@ -63,6 +63,22 @@ input[type="reset"],
     // box-shadow: 0 2px #333;
     transform: translateY(3px);
     // background-color: $color-btn-bg-hover;
+  }
+}
+.btn--primary {
+  // background-image: url("../images/interactive-deck/textures/brushed-alum.png");
+  background-image: url("../images/fractal_heart.png");
+  // background-repeat: round;
+  background-color: $color-btn-bg;
+  border-color: $color-btn-border;
+  color: $color-btn;
+  box-shadow: 0 0 5px 1px white;
+
+  &:hover,
+  &:active {
+    // background-color: $color-btn-bg-hover;
+    // box-shadow: 0 0 2px 2px white inset;
+    box-shadow: 0 0 3px 0 white;
   }
 }
 
@@ -81,42 +97,27 @@ input[type="reset"],
   }
 
 }
-.btn--tertiary {
-  // background-image: url("../images/interactive-deck/textures/brushed-alum.png");
-  background-image: url("../images/fractal_heart.png");
-  // background-repeat: round;
-  background-color: $color-btn-alt-2-bg;
-  border-color: $color-btn-alt-2-border;
-  color: $color-btn-alt-2;
-  box-shadow: 0 0 8px 8px white;
-
-  &:hover,
-  &:active {
-    // background-color: $color-btn-bg-hover;
-    box-shadow: 0 0 2px 2px white inset;
-  }
-}
-.btn--tertiary:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    // opacity: 0;
-    opacity: 1;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
+// .btn--tertiary:before {
+//     content: '';
+//     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+//     position: absolute;
+//     top: -2px;
+//     left:-2px;
+//     background-size: 400%;
+//     z-index: -1;
+//     filter: blur(5px);
+//     width: calc(100% + 4px);
+//     height: calc(100% + 4px);
+//     animation: glowing 20s linear infinite;
+//     // opacity: 0;
+//     opacity: 1;
+//     transition: opacity .3s ease-in-out;
+//     border-radius: 10px;
+// }
 // .btn--tertiary:before {
 //     content: "";
 //     background-image: url("../images/fractal_heart.png");
-//     background-color: $color-btn-alt-2-bg;
+//     background-color: $color-btn-alt2-bg;
 //     background-repeat: round;
 //     // background-size: cover;
 //     // position: absolute;
@@ -210,7 +211,7 @@ Glow effect
     // outline: none;
     // color: #fff;
     // background: #111;
-    background: $color-btn-bg-hover;
+    background: $color-btn-alt2-bg-hover;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -242,16 +243,16 @@ Glow effect
 .btn--glow:active:after {
     // background: transparent;
     background-image: url("../images/interactive-deck/textures/dimension.png");
-    background-color: $color-btn-bg-active;
+    background-color: $color-btn-alt2-bg-active;
 
 }
 .btn--glow:hover {
-  background-color: $color-btn-bg-active;
-  box-shadow: 0 0 8px 8px white inset;
+  background-color: $color-btn-alt2-bg-active;
+  box-shadow: 0 0 5px 5px white inset;
 }
 .btn--glow:hover:before {
     // opacity: 1;
-    box-shadow: 0 0 8px 8px white inset;
+    box-shadow: 0 0 5px 5px white inset;
 }
 
 .btn--glow:after {
@@ -262,7 +263,7 @@ Glow effect
     height: 100%;
     // background: #111;
     background-image: url("../images/interactive-deck/textures/dimension.png");
-    background-color: $color-btn-bg;
+    background-color: $color-btn-alt2-bg;
     left: 0;
     top: 0;
     border-radius: 10px;

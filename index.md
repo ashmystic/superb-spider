@@ -8,11 +8,11 @@ sections:
       - type: action
         label: Purchase Deck
         url: '#'
-        style: tertiary
+        style: primary
       - type: action
         label: Online Oracle
-        url: '#container-online-oracle'
-        style: primary
+        url: '#online-oracle'
+        style: glow
       - type: action
         label: Learn More
         url: /about

@@ -7,7 +7,7 @@
   padding-top: 1.125rem;
 
   // Ash added
-  background-color: $color-bg-alt;
+  // background-color: $color-bg-alt;
 }
 
 .navbar {
@@ -100,7 +100,7 @@
     position: relative;
 
     // Ash added
-    background-color: $color-bg-alt;
+    // background-color: $color-bg;
   }
 
   .navbar__inner {
@@ -118,10 +118,10 @@
   }
 
   .navbar__item {
-    border-top: 1px solid $color-border;
+    // border-top: 1px solid $color-border;
 
     &:not(.navbar__item--btn):last-child {
-      border-bottom: 1px solid $color-border;
+      // border-bottom: 1px solid $color-border;
     }
 
     a {
@@ -166,4 +166,20 @@
       visibility: visible;
     }
   }
+
+    .navbar__line
+    {
+      // width: 100%;
+      // position: absolute;
+      // background-color: aqua;
+      background-color: #fff;
+      // box-shadow: 0px 0px 8px aqua;
+      box-shadow: 0px 0px 8px #fff;
+      height: 2px;
+      // height: calc(100% - 20px);
+      top: 10px;
+      left: 22px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
 }
