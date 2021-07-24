@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
-    <head>    
-
+    <head>
+        
         <title>{% assign title_is_not_empty = page.seo.title | is_not_empty %}{% if title_is_not_empty %}{{ page.seo.title }}{% else %}{{ page.title | append: ' | ' | append: site.data.config.title }}{% endif %}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,12 +31,12 @@
         {% if favicon_is_not_empty %}
         <link rel="icon" href="{{ site.data.config.favicon | relative_url }}">
         {% endif %}
-        
+
     </head>
     <body>
-        
+
         {{ content }}
         <script src="{{ 'js/init.js' | relative_url }}"></script>
         <script src="{{ 'js/page-load.js' | relative_url }}"></script>
-    </body> 
+    </body>
 </html>

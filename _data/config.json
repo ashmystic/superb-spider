@@ -9,13 +9,13 @@
                 "type": "action",
                 "label": "Buy Oracle Deck",
                 "url": "#",
-                "style": "primary",
+                "style": "tertiary",
                 "new_window": true
             },
             {
                 "label": "Online Oracle",
                 "url": "#container-online-oracle",
-                "style": "secondary",
+                "style": "primary",
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"

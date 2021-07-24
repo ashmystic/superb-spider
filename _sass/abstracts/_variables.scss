@@ -2,6 +2,7 @@
 
 
 // Colors
+// DarkSlateGrey = #1E1E1E
 // Base
 // $color-text:                   #536171 !default;
 $color-text:                   #fff !default;
@@ -9,6 +10,7 @@ $color-text:                   #fff !default;
 $color-heading:                #fff !default;
 $color-meta:                   #8594a5 !default;
 // $color-bg:                     #fff !default;
+// $color-bg:                     #1e1e1e !default;
 $color-bg:                     #1e1e1e !default;
 $color-bg-alt:                 #f5f6f7 !default;
 $color-bg-overlay:             rgba(245,246,247,.8) !default;
@@ -22,21 +24,36 @@ $color-blockquote:             #282f36 !default;
 $color-blockquote-border:      #28aaff !default;
 
 // Buttons
+// primary
 $color-btn:                    #fff !default;
 // $color-btn-bg:                 #28aaff !default;
-$color-btn-bg:                 DarkSlateGrey !default;
+// $color-btn-bg:                 DarkSlateGrey !default;
+$color-btn-bg:                 rgba(30,30,30,0.3) !default;
 $color-btn-bg-hover:           DimGray !default;
-$color-btn-border:             #28aaff !default;
+$color-btn-bg-active:           rgba(30,30,30,.1) !default;
+// $color-btn-border:             #28aaff !default;
+$color-btn-border:             #fff !default;
 $color-btn-shadow:             #333 !default;
 
+// Alt 1 (most buttons)
 // $color-btn-alt:               #28aaff !default;
 $color-btn-alt:                DarkSlateGrey !default;
 // $color-btn-alt-bg:             transparent !default;
+// $color-btn-alt-bg:             #fff !default;
 $color-btn-alt-bg:             #fff !default;
-$color-btn-alt-border:         #28aaff !default;
+// $color-btn-alt-border:         #28aaff !default;
+$color-btn-alt-border:         #fff !default;
 $color-btn-alt-shadow:         DimGray !default;
+
 $color-btn-clear:              #282f36 !default;
 
+// Alt 2 (buy button)
+// $color-btn-alt:               #28aaff !default;
+$color-btn-alt-2:                #fff !default;
+// $color-btn-alt-bg:             transparent !default;
+// $color-btn-alt-bg:             #fff !default;
+$color-btn-alt-2-border:         #fff !default;
+$color-btn-alt-2-bg:             Purple !default;
 
 // Navigation
 $color-nav-link:               #536171 !default;

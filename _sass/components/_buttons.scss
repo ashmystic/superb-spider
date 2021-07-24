@@ -6,10 +6,10 @@ input[type="submit"],
 input[type="button"],
 input[type="reset"],
 .btn {
-/*
+
   background-color: $color-btn-bg;
   border: 2px solid $color-btn-border;
-  border-radius: 5px;
+  // border-radius: 5px;
   box-sizing: border-box;
   color: $color-btn;
   cursor: pointer;
@@ -22,50 +22,110 @@ input[type="reset"],
   text-decoration: none;
   transition: .3s ease;
   vertical-align: middle;
-  
+
   &:hover,
-  &:focus,
   &:active {
     opacity: .8;
-    outline: 0;
+
   }
-  */
+    &:focus {
+      outline: 0;
+    }
 
 
-  font-size:1.2em;
-  display: inline-block;
-  padding: 12px 12px;
-  /*font-size: 24px;*/
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-image: url("../images/interactive-deck/textures/brushed-alum.png");
-  background-color: $color-btn-bg;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 5px $color-btn-shadow;
-
+  // font-size:1.2em;
+  // display: inline-block;
+  // padding: 12px 12px;
+  // /*font-size: 24px;*/
+  // cursor: pointer;
+  // text-align: center;
+  // text-decoration: none;
+  // outline: none;
+  // color: #fff;
+  // background-image: url("../images/interactive-deck/textures/brushed-alum.png");
+  // // background-image: url("../images/interactive-deck/textures/brushed-alum-dark.png");
+  // // background-image: url("../images/interactive-deck/textures/plaster.png");
+  // // background-image: url("../images/interactive-deck/textures/gravel.png");
+  // // Best alternative:
+  // // background-image: url("../images/interactive-deck/textures/rocky-wall.png");
+  // background-color: $color-btn-bg;
+  // border: none;
+  border-radius: 10px;
+  // // box-shadow: 0 5px $color-btn-shadow;
+  //
   &:hover {
-    background-color: $color-btn-bg-hover;
+    // background-color: $color-btn-bg-hover;
+    box-shadow: 0 0 8px 8px white inset;
   }
   &:active,
   &.is-checked {
     /*background-color: chocolate;*/
-    box-shadow: 0 2px #333;
+    // box-shadow: 0 2px #333;
     transform: translateY(3px);
-    background-color: $color-btn-bg-hover;
+    // background-color: $color-btn-bg-hover;
   }
 }
 
 .btn--secondary {
+  background-image: url("../images/interactive-deck/textures/brushed-alum.png");
+  // background-image: url("../images/fractal_heart.jpg");
+  // background-repeat: round;
   background-color: $color-btn-alt-bg;
   border-color: $color-btn-alt-border;
   color: $color-btn-alt;
 
-  box-shadow: 0 5px $color-btn-alt-shadow;
+  &:hover,
+  &:active {
+    // background-color: $color-btn-bg-hover;
+    box-shadow: 0 0 3px 3px white inset;
+  }
+
 }
+.btn--tertiary {
+  // background-image: url("../images/interactive-deck/textures/brushed-alum.png");
+  background-image: url("../images/fractal_heart.png");
+  // background-repeat: round;
+  background-color: $color-btn-alt-2-bg;
+  border-color: $color-btn-alt-2-border;
+  color: $color-btn-alt-2;
+  box-shadow: 0 0 8px 8px white;
+
+  &:hover,
+  &:active {
+    // background-color: $color-btn-bg-hover;
+    box-shadow: 0 0 2px 2px white inset;
+  }
+}
+.btn--tertiary:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    // opacity: 0;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+// .btn--tertiary:before {
+//     content: "";
+//     background-image: url("../images/fractal_heart.png");
+//     background-color: $color-btn-alt-2-bg;
+//     background-repeat: round;
+//     // background-size: cover;
+//     // position: absolute;
+//     // top: 0px;
+//     // right: 0px;
+//     // bottom: 0px;
+//     // left: 0px;
+//     opacity: 0.75;
+// }
 
 .btn--icon {
   align-items: center;
@@ -137,4 +197,80 @@ input[type="reset"],
       margin-right: 0;
     }
   }
+}
+
+
+/*
+Glow effect
+*/
+.btn--glow {
+    // width: 220px;
+    // height: 50px;
+    // border: none;
+    // outline: none;
+    // color: #fff;
+    // background: #111;
+    background: $color-btn-bg-hover;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn--glow:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    // opacity: 0;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn--glow:active {
+    // color: #000
+}
+
+.btn--glow:active:after {
+    // background: transparent;
+    background-image: url("../images/interactive-deck/textures/dimension.png");
+    background-color: $color-btn-bg-active;
+
+}
+.btn--glow:hover {
+  background-color: $color-btn-bg-active;
+  box-shadow: 0 0 8px 8px white inset;
+}
+.btn--glow:hover:before {
+    // opacity: 1;
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+.btn--glow:after,
+.btn--tertiary:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // background: #111;
+    background-image: url("../images/interactive-deck/textures/dimension.png");
+    background-color: $color-btn-bg;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }

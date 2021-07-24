@@ -8,6 +8,10 @@ sections:
       - type: action
         label: Purchase Deck
         url: '#'
+        style: tertiary
+      - type: action
+        label: Online Oracle
+        url: '#container-online-oracle'
         style: primary
       - type: action
         label: Learn More
@@ -100,7 +104,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Starter Theme
+      value: Order of the Twelve Mushrooms | Oracle Deck and Story
       keyName: property
     - name: 'og:description'
       value: A true story and oracle card deck about a mystical vision of the life-reincarnation cycle.
@@ -112,7 +116,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Starter Theme
+      value: Order of the Twelve Mushrooms | Oracle Deck and Story
     - name: 'twitter:description'
       value: A true story and oracle card deck about a mystical vision of the life-reincarnation cycle.
     - name: 'twitter:image'
