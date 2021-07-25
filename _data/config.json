@@ -72,7 +72,17 @@
                 "type": "action"
             }
         ],
-        "content": "&copy; 2021 Andrew Herman <a href=\"https://www.ashmystic.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">AshMystic.com</a>. All rights reserved. "
+        "content": "&copy; 2021 Andrew Herman <a href=\"https://www.ashmystic.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">AshMystic.com</a>. All rights reserved. ",
+        "links": [
+            {
+                "label": "lorem-ipsum",
+                "url": "#",
+                "style": "link",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            }
+        ]
     },
     "domain": "https://twelve-mushrooms.netlify.app",
     "favicon": "/images/fruit_of_life_small.png"
