@@ -93,7 +93,7 @@
                 "type": "action"
             }
         ],
-        "content": "&copy; 2021 Andrew Herman, AshMystic.com. All rights reserved. "
+        "content": "&copy; 2021 Andrew Herman, <a href=\"https://www.ashmystic.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Ash Mystic (Andrew Herman) AshMystic.com</a>.. All rights reserved. "
     },
     "domain": "https://twelve-mushrooms.netlify.app",
     "favicon": "/images/fruit_of_life_small.png"
