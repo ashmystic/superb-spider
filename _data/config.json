@@ -64,7 +64,7 @@
             },
             {
                 "label": "Blog",
-                "url": "#",
+                "url": "/blog",
                 "style": "link",
                 "new_window": false,
                 "no_follow": false,
