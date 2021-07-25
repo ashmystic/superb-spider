@@ -71,13 +71,6 @@
                 "new_window": true
             },
             {
-                "type": "action",
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "link",
-                "new_window": true
-            },
-            {
                 "label": "lorem-ipsum",
                 "url": "#",
                 "style": "link",
