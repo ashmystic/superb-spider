@@ -69,6 +69,14 @@
                 "url": "https://github.com/",
                 "style": "link",
                 "new_window": true
+            },
+            {
+                "label": "lorem-ipsum",
+                "url": "#",
+                "style": "link",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
             }
         ],
         "content": "&copy; 2021 Andrew Herman <a href=\"https://www.ashmystic.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">AshMystic.com</a>. All rights reserved. "
