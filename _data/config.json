@@ -53,12 +53,6 @@
                 "label": "Contact Us",
                 "url": "/contact",
                 "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "Privacy and Terms",
-                "url": "/terms",
-                "style": "link"
             }
         ],
         "has_social": true,
