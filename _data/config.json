@@ -56,7 +56,7 @@
             },
             {
                 "label": "About",
-                "url": "#",
+                "url": "/about",
                 "style": "link",
                 "new_window": false,
                 "no_follow": false,
