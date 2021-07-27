@@ -332,7 +332,7 @@ collections:
     create: true
     extension: md
     identifier_field: title
-    slug: '{{slug}}'
+    slug: '{{title}}'
     summary: '{{title}}'
     fields:
       - widget: string
