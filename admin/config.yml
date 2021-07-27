@@ -328,7 +328,7 @@ collections:
         default: category
   - name: page
     label: Pages
-    folder: .
+    folder: /
     create: true
     extension: md
     identifier_field: title
