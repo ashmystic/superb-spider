@@ -1,13 +1,13 @@
 ---
 title: lorem-ipsum
-date: '2021-07-24'
+date: 2021-07-24
 categories: []
 tags: []
 image_alt: lorem-ipsum
-excerpt: lorem-ipsum
+excerpt: lorem-ipsum 1
 seo:
-  title: ''
-  description: ''
+  title: ""
+  description: ""
   robots: []
   extra: []
   type: stackbit_page_meta
