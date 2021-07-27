@@ -1,6 +1,7 @@
 ---
-title: lorem-ipsum
+title: lorem-ipsum 1
 date: 2021-07-24
+author: _data/team/ash-mystic.yaml
 categories: []
 tags: []
 image_alt: lorem-ipsum
