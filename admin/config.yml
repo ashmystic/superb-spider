@@ -328,11 +328,11 @@ collections:
         default: category
   - name: page
     label: Pages
-    folder: /
+    folder: .
     create: true
     extension: md
     identifier_field: title
-    slug: '{{title}}'
+    slug: '{{slug}}'
     summary: '{{title}}'
     fields:
       - widget: string
