@@ -1,6 +1,6 @@
 ---
 title: test-post-datetime
-date: 2021-07-28T21:16:18.150Z
+date: '2021-07-28T21:16:18.150Z'
 author: _data/team/ash-mystic.yaml
 categories:
   - _data/categories/general.yaml
