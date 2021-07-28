@@ -423,18 +423,156 @@ collections:
     filter:
       field: layout
       value: page
-  - name: 'post'
-    label: 'Posts'
-    folder: '_posts/'
+  - name: post
+    label: Posts
+    folder: blog
     create: true
+    extension: md
+    identifier_field: title
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
+    summary: '{{title}}'
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - widget: string
+        name: title
+        label: Title
+        required: true
+        hint: The title of the post
+      - widget: datetime
+        format: "''YYYY-MM-DD HH:mm:ss''"
+        name: date
+        label: Date
+        required: true
+        hint: The publish date of the post
+      - widget: relation
+        name: author
+        label: Author
+        required: false
+        hint: The author of the post
+        collection: person
+        valueField: '_data/team/{{slug}}.yaml'
+        searchFields:
+          - id
+        displayFields:
+          - id
+      - widget: relation
+        name: categories
+        label: Categories
+        required: false
+        hint: The categories of the post
+        collection: category
+        multiple: true
+        valueField: '_data/categories/{{slug}}.yaml'
+        searchFields:
+          - id
+        displayFields:
+          - id
+      - widget: list
+        name: tags
+        label: Tags
+        required: false
+        hint: The tags of the post
+        field:
+          label: String
+          name: string
+          widget: string
+      - widget: image
+        name: image
+        label: Featured Image
+        required: false
+        hint: The image shown in the blog post and blog feed
+      - widget: string
+        name: image_alt
+        label: Featured Image Alt Text
+        required: false
+        hint: The alt text of the featured image
+      - widget: string
+        name: excerpt
+        label: Excerpt
+        required: false
+        hint: The excerpt of the page displayed in the blog feed
+      - widget: object
+        name: seo
+        label: Seo
+        required: false
+        fields:
+          - widget: string
+            name: title
+            label: Title
+            required: false
+            default: ''
+            hint: The page title that goes into the <title> tag
+          - widget: string
+            name: description
+            label: Description
+            required: false
+            default: ''
+            hint: >-
+              The page description that goes into the <meta name="description">
+              tag
+          - widget: list
+            name: robots
+            label: Robots
+            required: false
+            hint: The items that go into the <meta name="robots"> tag
+            field:
+              label: Select
+              name: select
+              widget: select
+              options:
+                - all
+                - index
+                - follow
+                - noindex
+                - nofollow
+                - noimageindex
+                - notranslate
+                - none
+          - widget: list
+            name: extra
+            label: Extra
+            required: false
+            hint: >-
+              Additional definition for specific meta tags such as open-graph,
+              twitter, etc.
+            fields:
+              - widget: string
+                name: name
+                label: Name
+                required: false
+                default: ''
+              - widget: string
+                name: value
+                label: Value
+                required: false
+                default: ''
+              - widget: string
+                name: keyName
+                label: Key Name
+                required: false
+                default: name
+              - widget: boolean
+                name: relativeUrl
+                label: Relative Url
+                required: false
+          - widget: hidden
+            name: type
+            label: Object Type
+            required: true
+            hint: The type of the object
+            default: stackbit_page_meta
+      - widget: hidden
+        name: layout
+        label: Layout
+        required: true
+        default: post
+      - widget: markdown
+        name: body
+        label: Content
+        required: false
+        hint: Page content
+    filter:
+      field: layout
+      value: post
   - name: advanced
     label: Advanced Pages
     folder: .
