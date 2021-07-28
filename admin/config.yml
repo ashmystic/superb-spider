@@ -437,7 +437,8 @@ collections:
         label: Title
         required: true
         hint: The title of the post
-      - widget: date
+      - widget: datetime
+        format: "YYYY-MM-DD HH:mm:ss"
         name: date
         label: Date
         required: true

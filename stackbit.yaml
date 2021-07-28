@@ -198,7 +198,8 @@ models:
         label: Title
         description: The title of the post
         required: true
-      - type: date
+      - type: datetime
+        format: "YYYY-MM-DD HH:mm:ss"
         name: date
         label: Date
         description: The publish date of the post
