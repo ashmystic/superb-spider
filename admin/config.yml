@@ -438,7 +438,7 @@ collections:
         required: true
         hint: The title of the post
       - widget: datetime
-        format: "''YYYY-MM-DD HH:mm:ss''"
+        format: "'YYYY-MM-DD HH:mm:ss'"
         name: date
         label: Date
         required: true
