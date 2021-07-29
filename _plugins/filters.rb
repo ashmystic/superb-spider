@@ -209,3 +209,22 @@ module Stackbit
 end
 
 Liquid::Template.register_filter(Stackbit::Filters)
+
+# Ash added 7/28 to fix Jekyll Liquid build error where Netlify CMS is saving dates without quotes
+module Jekyll
+  module DateFilter
+    require 'date'
+    def date_sort(collection)
+      collection.sort_by do |el|
+        if el.data['date'] && !el.data['date'].to_s.empty?
+          # puts(DateTime.parse(el.data['date'].to_s, "%Y-%m-%d %H-%M-%S"))
+          DateTime.parse(el.data['date'].to_s, "%Y-%m-%d %H-%M-%S")
+        else
+          # puts(DateTime.new(2021,8,1))
+          DateTime.new(2021,8,1)
+        end
+      end
+    end
+  end
+end
+Liquid::Template.register_filter(Jekyll::DateFilter)

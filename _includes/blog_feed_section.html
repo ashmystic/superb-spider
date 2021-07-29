@@ -23,7 +23,7 @@
       {% endif %}
 
       {% assign posts_all = '/blog' | get_pages %}
-      {% assign posts_sorted = posts_all | sort: 'date' | reverse %}
+      {% assign posts_sorted = posts_all | date_sort | reverse %}
 
       {% assign show_recent = section.show_recent %}
       {% assign recent_count = section.recent_count %}
@@ -36,7 +36,7 @@
         {% endif %}
         {% if is_post and (show_recent == false or post_count < recent_count) %}
           {% assign post_count = post_count | plus: 1 %}
-          
+
           {% include blog_feed_item_filter.html blog_feed_section=section post_page=post section_author=section_author section_category=section_category %}
         {% endif %}
       {% endfor %}
