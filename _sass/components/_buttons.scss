@@ -50,6 +50,8 @@ input[type="reset"],
   // // background-image: url("../images/interactive-deck/textures/rocky-wall.png");
   // background-color: $color-btn-bg;
   // border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
   // // box-shadow: 0 5px $color-btn-shadow;
   //
@@ -215,6 +217,8 @@ Glow effect
     cursor: pointer;
     position: relative;
     z-index: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
 }
 
@@ -233,6 +237,8 @@ Glow effect
     // opacity: 0;
     opacity: 1;
     transition: opacity .3s ease-in-out;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
 }
 
@@ -245,12 +251,16 @@ Glow effect
     // background: transparent;
     background-image: url("../images/interactive-deck/textures/dimension.png");
     background-color: $color-btn-alt2-bg-active;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
 
 }
 .btn--glow:hover {
   background-color: $color-btn-alt2-bg-active;
   box-shadow: 0 0 5px 5px white inset;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 .btn--glow:hover:before {
@@ -269,6 +279,8 @@ Glow effect
     background-color: $color-btn-alt2-bg;
     left: 0;
     top: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
 }
 
