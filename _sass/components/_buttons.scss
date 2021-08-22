@@ -238,17 +238,20 @@ Glow effect
 
 .btn--glow:active {
     // color: #000
+    border-radius: 10px;
 }
 
 .btn--glow:active:after {
     // background: transparent;
     background-image: url("../images/interactive-deck/textures/dimension.png");
     background-color: $color-btn-alt2-bg-active;
+    border-radius: 10px;
 
 }
 .btn--glow:hover {
   background-color: $color-btn-alt2-bg-active;
   box-shadow: 0 0 5px 5px white inset;
+  border-radius: 10px;
 }
 .btn--glow:hover:before {
     // opacity: 1;
